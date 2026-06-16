@@ -1,0 +1,13 @@
+# Copy to users.conf and set a real password. users.conf is gitignored.
+#
+# Format: username:password[:e][:uid[:gid[:homedir]]][:directory-list]
+#   - Append ':e' after the password if it is already hashed (e.g. bcrypt).
+#   - uid 1001 avoids conflicts with host system users.
+#   - Listed directories are created automatically inside the user's home.
+#
+# → CPI Security Material (User Credentials): LAB_SFTP_CREDS  (user labuser)
+#   Host key trust:  Known Hosts (SSH)  LAB_SFTP_KNOWNHOSTS  (scripts/known-hosts.sh)
+#   CPI SFTP paths:  /inbox  /outbox  /upload  /archive
+#
+# Example (replace CHANGEME):
+labuser:CHANGEME:1001::upload,inbox,outbox,archive

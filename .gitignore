@@ -1,0 +1,9 @@
+users.conf
+.env
+data/
+ssh/
+known_hosts.lab
+*.log
+.DS_Store
+.playwright-mcp/
+.claude/settings.local.json

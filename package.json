@@ -1,0 +1,13 @@
+{
+  "name": "mock-sftp-server",
+  "version": "1.0.0",
+  "description": "Disposable SFTP test host for SAP Integration Suite lab testing. Exposed to CPI via SAP Cloud Connector.",
+  "scripts": {
+    "setup":          "bash scripts/setup.sh",
+    "lab:sftp":       "docker compose up -d",
+    "lab:sftp:down":  "docker compose down",
+    "lab:sftp:logs":  "docker compose logs -f",
+    "lab:sftp:test":  "bash scripts/sftp-test.sh",
+    "lab:health":     "bash scripts/health.sh"
+  }
+}
