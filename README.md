@@ -48,6 +48,7 @@ the host-key trust entry for CPI with `bash scripts/known-hosts.sh`.
 - [mock-erp-server](https://github.com/samwatso/mock-erp-server) — a stand-in SAP ECC / S/4HANA (IDoc, SOAP, OData, XI)
 - [mock-mq-broker](https://github.com/samwatso/mock-mq-broker) — JMS / AMQP / MQTT brokers (Artemis + Mosquitto)
 - [mock-event-broker](https://github.com/samwatso/mock-event-broker) — HTTP topics & queues with ack/nack
+- [mock-ibmmq](https://github.com/samwatso/mock-ibmmq) — a stand-in on-premise IBM MQ queue manager
 
 ## House rules
 
